@@ -1,0 +1,667 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: font;
+    src: url(Zector.ttf);
+}
+
+.logo {
+    position:fixed;
+    float: left;
+}
+
+.img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: black; 
+    height: 60px;
+    border-bottom: 1px solid rgb(9, 238, 9);
+    color: white;
+    text-align: center;
+    top: 0;
+}
+
+.menu {
+    margin-left: 100px;
+}
+
+.menu ul li a:hover{
+    color: white;
+    font-weight:1000;
+    text-decoration-line: underline;
+}
+
+nav ul{
+    list-style: none;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px 30px 20px 35px;
+}
+
+.img11 {
+    height: 20px;
+    width: 20px;
+    padding-left: -10px;
+    display: inline-flex;
+}
+
+.img12 {
+    height: 25px;
+    width: 25px;
+    display: inline-flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    font-family: font;
+}
+
+#header1 {
+    background-color: rgb(100, 102, 102);
+    margin: 0;
+    height: 40px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+#p1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#link {
+    color: white;
+    text-decoration: none;
+}
+
+#back0 {
+    background-image: url(razer-huntsman-v3-pro-line-homepage-desktop2x.webp);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border-bottom: 10px solid rgb(49, 46, 46);
+}
+
+#p2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 40px;
+
+}
+
+#p3 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#p4 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+
+
+#back1 {
+    background-image: url(razer-mid-year-gear-up-primeday-homepage-desktop2x.webp);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border-bottom: 10px solid rgb(49, 46, 46);
+}
+
+#p2-0 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 40px;
+
+}
+
+#p3-0 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#p4-0 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#back2 {
+    background-image: url(kitsune-akuma-homepage2x.webp);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border-bottom: 10px solid rgb(49, 46, 46);
+}
+
+#btn {
+    background-color: rgb(253, 167, 7);
+    columns: white;
+    margin-top: 20px;
+    margin-left: 47%;
+    border: none;
+    padding-bottom: 2px;
+    width: 130px;
+    font-weight: bolder;
+    height: 20px;
+
+    
+}
+
+#p2-1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 40px;
+
+}
+
+#p3-1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#p4-1 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#back3 {
+    background-image: url(razer-creator-program-homepage-large-2x.webp);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border-bottom: 10px solid rgb(49, 46, 46);
+
+}
+
+#p2-2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+#p3-2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: font;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#p4-2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#back45 {
+    display: flex;
+}
+
+#back4 {
+    background-image: url(razer-back-to-school-2024-b-950x580-desktop.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border-bottom: 5px solid rgb(49, 46, 46);
+    border-right: 5px solid rgb(49, 46, 46);
+    display: 50%;
+    width: 100%;
+}
+
+#p2-3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+#p3-3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: font;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#p4-3 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#back5 {
+    background-image: url(razer-blade-18-2024-b-950x580-desktop.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border-bottom: 5px solid rgb(49, 46, 46);
+    border-left: 5px solid rgb(49, 46, 46);
+    display: 50%;
+    width: 100%;
+}
+
+#p2-4 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+#p3-4 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: font;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#p4-4 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#back67 {
+    display: flex;
+}
+
+#back6 {
+    background-image: url(razerstore-rewards-signup-chairs-promo-b-950x580-desktop.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border-top: 5px solid rgb(49, 46, 46);
+    border-bottom: 5px solid rgb(49, 46, 46);
+    border-right: 5px solid rgb(49, 46, 46);
+    display: 50%;
+    width: 100%;
+}
+
+#p2-5 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+#p3-5 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: font;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#p4-5 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#back7 {
+    background-image: url(nvidia-game-bundle-black-myth-wukong-b-950x580-desktop.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border-top: 5px solid rgb(49, 46, 46);
+    border-bottom: 5px solid rgb(49, 46, 46);
+    border-left: 5px solid rgb(49, 46, 46);
+    display: 50%;
+    width: 100%;
+}
+
+#p2-6 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+.p3-6 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: font;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#p4-6 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#back89 {
+    display: flex;
+}
+
+#back8 {
+    background-image: url(razer-blade-14-b-950x580-desktop.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border-top: 5px solid rgb(49, 46, 46);
+    border-bottom: 10px solid rgb(49, 46, 46);
+    border-right: 5px solid rgb(49, 46, 46);
+    display: 50%;
+    width: 100%;
+}
+
+#p2-7 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+#p3-7 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: font;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#p4-7 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#back9 {
+    background-image: url(esports-campaign-2024-b-950x580-desktop.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border-top: 5px solid rgb(49, 46, 46);
+    border-bottom: 10px solid rgb(49, 46, 46);
+    border-left: 5px solid rgb(49, 46, 46);
+    display: 50%;
+    width: 100%;
+}
+
+#p2-8 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+#p3-8 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: font;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#p4-8 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#main div p a{
+    text-decoration: none;
+    color: white;
+}
+
+#main div p a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(20, 18, 18);
+    height: 50vh;
+    width: 1199px;
+    padding: 30px 75px 50px 75px;
+    color: white;
+}
+
+.f1 {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.f1 ul{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.f1 ul li{
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: myfont;
+    font-weight: 100;
+}
+
+.f2 {
+    padding-top: -10px;
+    margin-left: 50px;
+    display: inline-flex;
+
+}
+
+.f2 ul{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.f2 ul li{
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: myfont;
+    font-weight: 100;
+}
+
+.f3 {
+    padding-top: -10px;
+    margin-left: 100px;
+    display: inline-flex;
+}
+
+.f3 ul{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.f3 ul li{
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: myfont;
+    font-weight: 100;
+}
+
+.f4 {
+    padding-top: -10px;
+    margin-left: 50px;
+    display: inline-flex;
+}
+
+.f4 ul{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.f4 ul li{
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: myfont;
+    font-weight: 100;
+}
+/* 
+.f5 {
+    padding-top: -10px;
+    margin-left: 150px;
+    display: inline-flex;
+}
+
+.f5 ul{
+    list-style: none;
+    margin-bottom: 10px;
+} */
+
+/* .f5 ul li img{
+    margin-top: 15px;
+    height: 25px;
+    width: 25px;
+
+} */
+
+.gamer {
+    display: inline-flex;
+    color: rgb(9, 238, 9);
+    float: right;
+    margin-right: 15px;
+    font-family: myfont;
+}
+
+.line {
+    border: 1px solid rgb(65, 60, 60);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+.last {
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgb(170, 168, 168);
+    display: inline;
+}
+
+.last a {
+    color: rgb(170, 168, 168);
+    text-decoration: none;
+}
+
+.last a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer div ul li a{
+    color: rgb(170, 168, 168);
+    text-decoration: none;
+}
+
+.footer div ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}

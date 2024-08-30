@@ -105,7 +105,7 @@ nav ul li a{
 #back0 {
     background-image: url(razer-huntsman-v3-pro-line-homepage-desktop2x.webp);
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center center ;
     background-size: cover;
     height: 100vh;
     color: white;
@@ -232,7 +232,7 @@ nav ul li a{
 #back3 {
     background-image: url(razer-creator-program-homepage-large-2x.webp);
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center center ;
     background-size: cover;
     height: 100vh;
     color: white;
@@ -273,7 +273,7 @@ nav ul li a{
 #back4 {
     background-image: url(razer-back-to-school-2024-b-950x580-desktop.webp);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center ;
     background-size: cover;
     height: 100vh;
     color: white;
@@ -312,7 +312,7 @@ nav ul li a{
 #back5 {
     background-image: url(razer-blade-18-2024-b-950x580-desktop.webp);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     height: 100vh;
     color: white;
@@ -605,24 +605,6 @@ nav ul li a{
     font-family: myfont;
     font-weight: 100;
 }
-/* 
-.f5 {
-    padding-top: -10px;
-    margin-left: 150px;
-    display: inline-flex;
-}
-
-.f5 ul{
-    list-style: none;
-    margin-bottom: 10px;
-} */
-
-/* .f5 ul li img{
-    margin-top: 15px;
-    height: 25px;
-    width: 25px;
-
-} */
 
 .gamer {
     display: inline-flex;
